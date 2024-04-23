@@ -1,0 +1,236 @@
+.details{
+    margin:45px;
+}
+
+.details1{
+    display:flex;
+    gap:15px;
+}
+.shirt-details{
+    color: rgba(7, 39, 25, 0.742);
+}
+.color i{
+    margin-left: 5px;
+    font-size: larger;
+}
+.shirt-size{
+    margin: 40px 0px;
+}
+.shirt-size .size,.size-1{
+    border: 1px solid grey;
+    padding: 5px;
+}
+.addtocart .button1{
+    background-color: rgba(7, 63, 38, 0.89);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    height: 35px;
+    color: white;
+}
+.addtocart .button2{
+    height: 33px;
+}
+.info{
+    margin: 30px 0px;
+}
+.review-1{
+    display: flex;
+    gap: 20px;
+}
+.comment{
+    margin-top: 25px;
+}
+.Name{
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+}
+.Name input{
+     width:50%;
+     height: 30px;
+}
+button{
+    font-size: 15px;
+    padding: 8px 15px 8px 15px;
+    background-color:rgb(11, 65, 48) ;
+    border: none;
+    border-radius: 2px;
+    margin-top: 20px;
+    color: white;
+}
+.card2{
+    display: flex;
+    
+    gap:15px;
+}
+.New{
+    border:1px solid rgb(38, 127, 100);
+    border-radius: 15px;
+    flex-grow: 1;
+    margin-top: 20px;
+}
+.New img{
+    padding:16px;
+    border-radius: 15px;
+}
+.New p{
+    font-size: small;
+    color: rgb(188, 188, 188);
+    margin-left: 16px;
+    margin-bottom: 5px;
+}
+.New h3{
+    margin: 10px 0px 10px 16px;
+}
+.New .star-icon{
+    margin-left: 16px;
+    color: rgb(255, 183, 0);
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+.New span{
+    margin-left: 16px;
+    font-size: 18px;
+    color: rgb(38, 127, 100);
+}
+.New span strike{
+    color: rgba(112, 98, 98, 0.79);
+    font-size: 13px;
+}
+.new-header{
+    position:relative;
+}
+.New .new-header .Hot1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    background-color: hotpink;
+    border-radius: 15px;
+    padding:1px 4px;
+    height:15px;
+    width:20px;
+    color:white;
+}
+.New .new-header .Hot2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    background-color: rgba(118, 213, 94, 0.662);
+    border-radius: 15px;
+    padding:1px 4px;
+    height:15px;
+    width:20px;
+    color:white;
+}
+.New .new-header .Hot3{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    background-color: orange;
+    border-radius: 15px;
+    padding:1px 4px;
+    height:15px;
+    width:20px;
+    color:white;
+}
+.New .new-header .Hot4{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    background-color: rgb(61, 134, 191);
+    border-radius: 15px;
+    padding:1px 4px;
+    height:15px;
+    width:20px;
+    color:white;
+}
+.shopping-bag {
+    position: relative;
+  }
+  
+  .cart-icon {
+    position: relative;
+    padding: 6px 10px;
+    background-color: rgb(34, 116, 105);
+    color: white;
+    opacity: 0;
+    bottom: 40px;
+    left: 55px;
+  }
+  .shopping-bag:hover .cart-icon {
+    background-color: rgb(34, 116, 105);
+    opacity: 1;
+  }
+  
+  .shopping-bag:hover .fa-bag-shopping {
+    background-color: rgb(34, 116, 105);
+  }
+  .footer-head{
+    display: flex;
+    border:none;
+    background-color: rgb(100, 183, 149);
+}
+.footer-head img{
+    margin-left: 30px;
+    margin-top: 32px;
+}
+.footer-head h4{
+    margin-left: 5px;
+    margin-top: 35px;
+}
+.footer-head h5{
+    margin-left: 200px;
+    margin-top: 35px;
+}
+.footer-head input{
+    margin-bottom: 25px;
+}
+.footer-head button{
+    background-color: black;
+    color: white;
+    height:32px;
+    width:80px;
+    margin-top: 30px;
+    border: none;
+}
+li{
+    list-style-type: none;
+}
+.footer{
+    display:flex;
+    gap:70px;
+    margin-top: 30px;
+}
+.footer-body #contact{
+    color: grey;
+    font-size: small;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.footer-body #Address{
+    color:rgb(38, 127, 100);
+    margin-bottom: 5px;
+}
+.footer-body #head{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.footer-body #info{
+    margin-bottom: 15px;
+}
+.Follow{
+    margin-left: 30px;
+}
+.Follow p{
+    color: grey;
+    margin: 5px 0px;
+}
+.Follow .imag{
+    display:flex;
+
+}

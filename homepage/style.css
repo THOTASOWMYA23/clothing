@@ -1,0 +1,503 @@
+
+body{
+    margin:0px;
+}
+.top,.number{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding-left: 20px;
+    padding-right: 40px;
+    background-color: #93ccc4;
+      
+}
+.header{
+    display :flex;
+    
+}
+.logo img{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.nav ul{
+    display: flex;
+    gap: 35px;
+    list-style-type: none;
+}
+.nav ul li a{
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+}
+.nav{
+    margin-top:20px;
+    margin-left: 40px;
+}
+input[type="text"]{
+    width: 320px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.button{
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+header .fa-magnifying-glass{
+    position: absolute;
+    right: 164px;
+    top: 96px;
+}
+header{
+    display: flex;
+    margin: 0px 30px;
+}
+.notification .not1{
+    display: inline;
+    background-color: green;
+    font-size: 13px;
+    height: 14px;
+    width: 14px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 77px;
+    right:91px;
+    border-radius: 100%;
+}
+.notification .not2{
+    display: inline;
+    background-color: green;
+    font-size: 13px;
+    height: 14px;
+    width: 14px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 77px;
+    right:58px;
+    border-radius: 100%;
+}
+a:active,
+a:hover {
+  color: rgb(46, 93, 72);
+}
+.Fashion{
+    margin: 35px;
+    display:flex;
+}
+.heading h4{
+    color:gray;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.heading h2{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.heading h1{
+    color: rgb(38, 127, 100);
+    display: inline;
+    font-size: 40px;
+}
+.heading{
+    width:30%;
+    top:100px;
+}
+.homeimage{
+    margin-left: 100px;
+}
+.heading button{
+    font-size: 15px;
+    padding: 8px 15px 8px 15px;
+    background-color:rgb(38, 127, 100) ;
+    border: none;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.heading p{
+    margin-top: 20px;
+}
+.line1{
+    margin-top:100px;
+    
+
+}
+.popular{
+    margin-left: 35px;
+    color: rgb(81, 178, 32);
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.categories{
+    display: inline;   
+}
+.sidebuttons{
+    margin-bottom: 20px;
+    margin-left: 1150px;
+}
+.sidebuttons .lessthan{
+    height: 28px;
+    width: 28px;
+    border-radius: 100%;
+    background-color: rgba(32, 178, 115, 0.141);
+    border: none;
+    color: #10a882;
+    cursor: pointer;
+}
+.sidebuttons .greaterthan{
+    height: 28px;
+    width: 28px;
+    border-radius: 100%;
+    background-color: rgba(32, 178, 115, 0.141);
+    border: none;
+    color: #10a882;
+    cursor: pointer;
+    
+    
+}
+
+    
+.category{
+    border: 1px solid rgb(38, 127, 100);
+    border-radius: 10px;
+    
+    
+}
+.card1{
+    display: flex;
+    gap:15px;
+    margin: 0px 35px;
+}
+.category img{
+    margin-left: 7px;
+    margin-top: 5px;
+    margin-right: 7px;
+    border-radius: 10px;
+}
+.category p{
+    text-align: center;
+}
+.line2{
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.Feature{
+    padding:5px 10px 5px 10px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+.Feature:hover{
+    cursor: pointer;
+    background-color: rgb(242, 187, 83);
+    color:rgb(38, 127, 100);
+    border: none;
+}
+.card2{
+    margin: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+
+}
+
+.New{
+    border:1px solid rgb(38, 127, 100);
+    border-radius: 15px;
+    flex-grow: 1;
+    margin-top: 20px;
+}
+.New img{
+    padding:15px;
+    border-radius: 15px;
+}
+.New p{
+    font-size: small;
+    color: rgb(188, 188, 188);
+    margin-left: 16px;
+    margin-bottom: 5px;
+}
+.New h3{
+    margin: 10px 0px 10px 16px;
+}
+.New .star-icon{
+    margin-left: 16px;
+    color: rgb(255, 183, 0);
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+.New span{
+    margin-left: 16px;
+    font-size: 18px;
+    color: rgb(38, 127, 100);
+}
+.New span strike{
+    color: rgba(112, 98, 98, 0.79);
+    font-size: 13px;
+}
+.new-header{
+    position:relative;
+
+}
+.reverse{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition:all 0.7sec ease;
+}
+.reverse:hover{
+    opacity: 1;
+}
+.New .new-header .Hot1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    background-color: hotpink;
+    border-radius: 15px;
+    padding:1px 4px;
+    height:15px;
+    width:20px;
+    color:white;
+}
+.New .new-header .Hot2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    background-color: rgba(118, 213, 94, 0.662);
+    border-radius: 15px;
+    padding:1px 4px;
+    height:15px;
+    width:20px;
+    color:white;
+}
+.New .new-header .Hot3{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    background-color: orange;
+    border-radius: 15px;
+    padding:1px 4px;
+    height:15px;
+    width:20px;
+    color:white;
+}
+.New .new-header .Hot4{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    background-color: rgb(61, 134, 191);
+    border-radius: 15px;
+    padding:1px 4px;
+    height:15px;
+    width:20px;
+    color:white;
+}
+.New .new-header .Hot5{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    background-color: rgb(61, 134, 191);
+    border-radius: 15px;
+    padding:1px 4px;
+    height:15px;
+    width:25px;
+    color:white;
+}
+.New .new-header .Hot6{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    background-color: rgb(61, 134, 191);
+    border-radius: 15px;
+    padding:1px 4px;
+    height:15px;
+    width:25px;
+    color:white;
+}
+.New .new-header .Hot7{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    background-color: rgba(118, 213, 94, 0.662);
+    border-radius: 15px;
+    padding:1px 4px;
+    height:15px;
+    width:25px;
+    color:white;
+}
+.New .new-header .Hot8{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    background-color: hotpink;
+    border-radius: 15px;
+    padding:1px 4px;
+    height:15px;
+    width:25px;
+    color:white;
+}
+
+  
+  
+.line3{
+    margin-top: 30px;
+}
+.deals{
+    display: flex;
+    position: relative;
+    gap:30px;
+    top:30px;
+    margin:0px 35px;
+}
+.deal{
+    border:none;
+    flex-wrap: wrap;
+
+}
+.Hurry{
+    position: absolute;
+    margin-left: 40px;
+    top :30px;
+}
+.deal h2{
+    color:rgb(38, 127, 100);
+    margin-bottom: 10px;
+}
+.deal .para1{
+    margin-top: 0px;
+    color: gray;
+    font-size: smaller;
+}
+.deal span{
+    color: red;
+    font-size: medium;
+}
+.deal span strike{
+    color: grey;
+}
+.deal .para3{
+    color: rgb(38, 127, 100);
+    margin-bottom: 10px;
+}
+.deal .timer{
+    display: flex;
+    gap:20px;
+}
+.deal .timer .semicolon{
+    color: black;
+    margin-left: 15px;
+}
+.deal .timer .time{
+    border: none;
+    background-color: rgb(38, 127, 100);
+    height: 30px;
+    width: 30px;
+    color: white;
+    padding: 5px;
+}
+.deal button{
+    color:rgb(38, 127, 100);
+    padding: 10px 15px;
+    border:0.5px solid rgb(38, 127, 100);
+    border-radius: 5px;
+    
+}
+.line4{
+    display: flex;
+    gap: 30px;
+}
+.showcaseimg{
+    display: flex;
+    margin: 20px 0px;
+}
+.showcaseimg .arivals{
+    margin-left: 12px;
+}
+.arivals span{
+    color: rgb(38, 127, 100);
+}
+.arivals strike{
+    color: grey;
+    font-size: small;
+    margin-left: 5px;
+}
+.footer-head{
+    display: flex;
+    border:none;
+    background-color: rgb(100, 183, 149);
+}
+.footer-head img{
+    margin-left: 30px;
+    margin-top: 32px;
+}
+.footer-head h4{
+    margin-left: 10px;
+    margin-top: 35px;
+
+}
+.footer-head h5{
+    margin-left: 200px;
+    margin-top: 35px;
+}
+.footer-head input{
+    margin-bottom: 25px;
+}
+.footer-head button{
+    background-color: black;
+    color: white;
+    height:32px;
+    width:80px;
+    margin-top: 30px;
+    border: none;
+    
+}
+li{
+    list-style-type: none;
+}
+.footer{
+    display:flex;
+    gap:70px;
+    margin-top: 30px;
+}
+.footer-body #contact{
+    color: grey;
+    font-size: small;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.footer-body #Address{
+    color:rgb(38, 127, 100);
+    margin-bottom: 5px;
+}
+.footer-body #head{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.footer-body #info{
+    margin-bottom: 15px;
+}
+.Follow{
+    margin-left: 30px;
+}
+.Follow p{
+    color: grey;
+    margin: 5px 0px;
+}
+.Follow .imag{
+    display:flex;
+
+}
+
